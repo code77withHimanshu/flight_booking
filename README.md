@@ -1,40 +1,25 @@
-# Altitude Air
-It is a task for creating the registration page as per the assignment
+# Flight Booking
+It is a flight booking application
 
 ### Step-1
 Clone the repository and open in VS code.
- - `git clone git@github.com:code77withHimanshu/altitude_air.git`
+ - `git clone git@github.com:code77withHimanshu/flight_booking.git`
 
-Note: In order to access the `altitude_air_users.sql` file, import it in MySql Workbench. Then use the database `altitude_air` to see all the tables.
+Note: The database is deployed in MongoDB Atlas.
+
+
 
 ### Step-2
-Go to the backend folder and open .env file.
-You can change the .env file according to your configuration.
-Note: If you are using mysql port 3306(default port) then change the following .env file accordingly.
-
-server/.env
-```markdown
-DB_HOST=127.0.0.1
-DB_PORT=3307
-DB_USER=root
-DB_PASSWORD=tiger
-DB_NAME=altitude_air
-PORT=5000
-JWT_SECRET="Cron!#@$afxw"
-```
-
-
-### Step-3
 Open the terminal and write the following commands
 
 - `cd .\server\`
 - `npm install`
 - `node index.js`
 
-This will run the server on the local and you will see Connected to MySQL database.
+This will run the server on the local and you will see Connected to MongoDB.
 
 
-### Step-4
+### Step-3
 Open another terminal and write the following commands
 
 - `cd .\client\`
@@ -45,7 +30,7 @@ This will start the frontend on the local
 
 
 
-### Step-5
+### Step-4
 Go to Register to create your own user or Go to Sign In and access the dummy user i.e. 
 
 
@@ -58,7 +43,7 @@ Password: 123
 
 
 
-I have used `MySQL` for storing data. 
+I have used `MongoDB` for storing data. 
 
 BackEnd Development with `Express.js`. 
 
